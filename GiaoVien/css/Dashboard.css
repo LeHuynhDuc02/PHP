@@ -1,0 +1,185 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #d1edff;
+    margin: 0;
+    padding: 0;
+}
+
+.user-info {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    line-height: 30px;
+    margin-left: 40px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    padding: 5px 15px;
+}
+
+#dashboard-title {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-size: 25px;
+    padding: 10px 20px;
+    line-height: 30px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+}
+
+td, th {
+    padding: 5px;
+    text-align: center;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin: auto;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+
+.styled-table input {
+    margin: 0;
+    text-align: center;
+    font-size: 12pt;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-weight: 500;
+}
+
+
+#select-button {
+    background: none;
+    border: none;
+    width: 100% !important;
+    height: 100% !important;
+    display: block;
+    margin: 0;
+    padding: 13px 0;
+}
+
+#select-button:hover {
+    color: blue !important;
+    cursor: pointer;
+}
+
+.table-wrapper {
+    text-align: center;
+}
+
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:nth-of-type(odd) {
+    background-color: white;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.styled-table tr:hover input {
+    font-weight: bold;
+    color: mediumvioletred;
+}
+
+/* <select> styles */
+select {
+    /* Reset */
+    border: 0;
+    outline: 0;
+    font: inherit;
+    /* Personalize */
+    width: 115px;
+    height: 30px;
+    margin: 0 5px 0 5px;
+    padding: 0 10px 0 10px;
+    background: #3875d7;
+    color: white;
+    border-radius: 0.25em;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    /* <option> colors */
+    /* Remove focus outline */
+    /* Remove IE arrow */
+}
+
+#filter-select {
+    background-color: #4CAF50;
+
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#filter-select:hover {
+    background: linear-gradient(to bottom, #45a049, #4CAF50);
+}
+
+#filter-mamon {
+    width: 145px;
+}
+
+select option {
+    color: white;
+    background-color: #4240ff;
+}
+
+select:focus {
+    outline: none;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+.logout-button {
+    display: flex;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: darkred;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+}
+
+.logout-button:hover {
+    background-color: #cc0000;
+}
+
+.logout-button:active {
+    background-color: #990000;
+}

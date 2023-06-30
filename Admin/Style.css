@@ -1,0 +1,144 @@
+
+/* Font */
+* {
+    font-family:Tahoma;
+    box-sizing: border-box;
+}
+/* MENU */
+a {
+    display: inline-block;
+    text-decoration:none; 
+} 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  li a:hover {
+    background-color: #4CAF50;
+    border-radius: 5px;
+  }
+/* TABLE */
+table {
+    width: 80%;
+    margin-bottom: 1.5em;
+    border-spacing: 0;
+}
+
+th {
+    background-color: rgba(38,137,13,1);
+    border: 1px solid rgba(134,188,37,1);
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+  
+table tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+/* BUTTON  */
+input[type="button"] {
+    background-color: #4CAF50; 
+    border: none; 
+    color: white; 
+    padding: 5px 7px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 14px; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+    border-radius: 8px;
+}
+
+input[type="button"]:hover {
+    background: linear-gradient(to bottom, #537060, #274233);
+}
+
+input[type="submit"] {
+    background-color: #4CAF50; 
+    border: none; 
+    color: white; 
+    padding: 5px 7px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 14px; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+    border-radius: 8px;
+}
+
+input[type="submit"]:hover {
+    background: linear-gradient(to bottom, #537060, #274233);
+}
+
+.img1 {
+    width: 1540px;
+    margin: -10px;
+}
+
+h1 {
+    font-size: 40px;
+    color: #333;
+    text-align: center;
+    text-shadow: 2px 2px #ccc;
+}
+
+.p1 {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #333;
+    text-decoration: none;
+    text-shadow: 1px 1px #ccc;
+    letter-spacing: 1px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    padding: 15px;
+    margin-top: 50px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4CAF50; 
+    border: none;
+    color: white; 
+    padding: 10px 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 10px; 
+    cursor: pointer; 
+}
+       
